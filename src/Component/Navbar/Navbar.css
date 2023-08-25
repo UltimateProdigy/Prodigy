@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400&family=Pacifico&display=swap');
+
+.navbar {
+    margin: 30px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.links {
+    display: flex;
+    list-style: none;
+    color: #FFF;
+    
+}
+.links li a {
+    margin: 0 25px;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 130% */
+    color: #FFF;
+    text-decoration: none;
+}
+.links li a:hover {
+    color: blueviolet;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.imglinks {
+    margin: 10px 10px;
+    cursor: pointer;
+}
+.second {
+    display: flex;
+}
