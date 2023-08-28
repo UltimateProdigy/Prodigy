@@ -11,18 +11,18 @@
     color: #FFF;
     
 }
-.links li a {
+.links li {
     margin: 0 25px;
     font-family: DM Sans;
-    font-size: 20px;
+    font-size: 17px;
     font-style: normal;
     font-weight: 500;
     line-height: 26px; /* 130% */
     color: #FFF;
     text-decoration: none;
 }
-.links li a:hover {
-    color: blueviolet;
+.links li:hover {
+    color: purple;
     cursor: pointer;
     transition: 0.5s;
 }

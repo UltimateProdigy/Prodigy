@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.projectdiv {
+    margin: 100px 80px;
+}
+.all-projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 40px;
+}
+.project h1 {
+    color: var(--solid-heading, #d3d3da);
+    font-family: Poppins;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 61.905% */
+
+}
+.project h3 {
+    color: var(--dark-content, #ffffff);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: lighter;
+    line-height: 26px; /* 130% */
+    padding-bottom: 30px;
+}
+
+/**card*/
+.projectcard {
+    width: 319px;
+    background-color: #a7a7a7;
+    height: 300px;
+    border-radius: 20px;
+} 
+.projectcard h1 {
+color: #000;
+text-align: center;
+font-family: Poppins;
+font-size: 28px;
+font-style: normal;
+font-weight: bolder;
+line-height: 26px; /* 92.857% */
+padding-top: 15px;
+}
+.projectcard h3 {
+    color: var(--dark-content, #000);
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 300;
+line-height: 26px; /* 144.444% */
+}
+.preview {
+    display: flex;
+    justify-content: space-around;
+}
+.preview h3 {
+    text-decoration: underline;
+}

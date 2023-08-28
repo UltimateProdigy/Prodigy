@@ -4,6 +4,8 @@ import logoimg from "../../img/code.png";
 import github from "../../img/github.png";
 import twitter from "../../img/twitter.png";
 import linkedin from "../../img/linkedin.png";
+import { Link } from "react-router-dom/cjs/react-router-dom";
+
 
 const Navbar = () => {
     return (
@@ -14,11 +16,11 @@ const Navbar = () => {
             <div className="second" >
                 <div>
                 <ul className="links">
-                    <li><a href=""> Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Tech Stark</a></li>
-                    <li><a href="">Projects</a></li>
-                    <li><a href="">Contacts</a></li>
+                    <Link style={{ textDecoration: "none"}} to="/"><li>Home</li></Link>
+                    <Link style={{ textDecoration: "none"}} to="/about"><li>About</li></Link> 
+                    <Link style={{ textDecoration: "none"}} to="/techstack"><li>Tech Stack</li></Link>  
+                    <Link style={{ textDecoration: "none"}} to="/projects"><li>Projects</li></Link>
+                    <Link style={{ textDecoration: "none"}} to="/contact"><li>Contacts</li></Link>
                 </ul>
                 </div>
                 <div>
@@ -28,6 +30,7 @@ const Navbar = () => {
                 </div>
             </div>
             </section>
+
 
     )
 }

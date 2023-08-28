@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+.aboutsection {
+    margin: 70px 80px;
+}
+.about_intro {
+    font-family: 'Poppins', sans-serif;
+    color: purple;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: lighter;
+    line-height: 153.81%;
+    letter-spacing: -0.4px;
+}
+.about_intro h3 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: lighter;
+    line-height: 26px; /* 144.444% */
+    width: 708px;
+}
+
+/** WORK EXPERIENCE **/
+
+.workexperience h1 {
+    font-family: 'Poppins', sans-serif;
+    color: purple;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 153.81%;
+    letter-spacing: -0.4px;
+}
+.work {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+.work h3 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.fulltime {
+    border-radius: 100px;
+    background-color: rgb(211, 108, 211);
+    width: 84px;
+    height: 24px;
+    margin-top: 25px;
+    
+}
+.fulltime h2 {
+    color: var(--button-text, #35022a);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 9px;
+    font-style: lighter;
+    font-weight: 600;
+}
+.locationdiv {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin-top: -10px;
+}
+.location {
+    display: flex;
+    justify-content: space-between;
+}
+.location h4 {
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    padding-right: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.location h3 {
+    color: #FFF;
+    font-size: 12px;
+    font-weight: lighter;
+    font-style: normal;
+    letter-spacing: 1px;
+    padding-top: 4px;
+    font-family: 'Poppins', sans-serif;
+}
+.imglocation {
+    padding-right: 7px;
+}
+.date {
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+.hr {
+    width: 300px;
+    display: flex;
+}
+
+
+/** EDUCATION**/
+
+.education h1 {
+    font-family: 'Poppins', sans-serif;
+    color: purple;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 153.81%;
+    letter-spacing: -0.4px;
+}
+.degree {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+.degree h3 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.time {
+    border-radius: 100px;
+    background-color: rgb(211, 108, 211);
+    width: 84px;
+    height: 24px;
+    margin-top: 20px;
+}
+.time h3 {
+    color: var(--button-text, #35022a);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 9px;
+    font-style: lighter;
+    font-weight: 600;
+    margin-top: 0;
+}
+.school {
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    padding-right: 30px;
+    font-family: 'Poppins', sans-serif;
+}
