@@ -29,6 +29,25 @@
     letter-spacing: -1px;
 }
 .profileDp {
-    margin-right: 150px;
+    padding-right: 150px;
     margin-top: 20px;
+}
+
+
+@media (max-width: 1194px) {
+    .profileDp { padding-right: 10px;}
+}
+@media (max-width: 1140px) {
+    .home {margin-top: 70px;}
+}
+@media (max-width: 1115px) {
+    .home {margin-left: 40px;}
+}
+@media (max-width: 1025px) {
+    .home {margin-top: 50px;}
+}
+@media (max-width: 998px) {
+    .home {display: grid; grid-template-columns: repeat(1, 1fr); text-align: center;}
+    .intro {width: 85vw; line-height: 60px; font-size: 50px;}
+    .profileDp {display: none;}
 }

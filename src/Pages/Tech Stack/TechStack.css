@@ -1,28 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
 .techstack {
-    margin: 100px 80px;
+  margin: 100px 80px;
 }
 
 .techstack h1 {
-    color: #FFF;
-    font-family: Poppins;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: light;
-    line-height: 26px; /* 54.167% */
+  color: #fff;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: light;
+  line-height: 26px; /* 54.167% */
 }
 .techstack h3 {
-    color: #FFF;
-    font-family: Poppins;
-    font-size: 27px;
-    font-style: normal;
-    font-weight: lighter;
-    line-height: 26px; /* 81.25% */
+  color: #fff;
+  font-family: Poppins;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: lighter;
+  line-height: 26px; /* 81.25% */
 }
 .stackimages {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    row-gap: 40px;
-    margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  row-gap: 40px;
+  margin-top: 100px;
+}
+@media (max-width: 880px) {
+    .stackimages {grid-template-columns: repeat(4, 1fr);}
+}
+@media (max-width: 720px) {
+    .stackimages {grid-template-columns: repeat(3, 1fr);}
+}
+@media (max-width: 556px) {
+    .stackimages {grid-template-columns: repeat(2, 1fr); column-gap: 40px; row-gap: 50px;}
 }

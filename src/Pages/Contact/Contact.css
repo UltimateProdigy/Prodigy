@@ -56,3 +56,20 @@ line-height: 26px; /* 144.444% */
 .contactimages {
     margin-right: 20px;
 }
+
+@media (max-width: 1235px) {
+    hr {width: 1000px;}
+}
+@media (max-width: 1040px) {
+    hr {width: 800px;}
+}
+@media (max-width: 850px) {
+    hr {width: 500px;}
+}
+@media (max-width: 770px) {
+    .contact h2 {font-size: 40px;}
+    .contact h1 {font-size: 50px;}
+}
+@media (max-width: 690px) {
+    .contact-me h2 {display: none;}
+}

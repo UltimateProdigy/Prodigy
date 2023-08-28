@@ -11,14 +11,13 @@
     line-height: 153.81%;
     letter-spacing: -0.4px;
 }
-.about_intro h3 {
+.about_intro p {
     color: #FFF;
     font-family: Poppins;
     font-size: 18px;
     font-style: normal;
     font-weight: lighter;
     line-height: 26px; /* 144.444% */
-    width: 708px;
 }
 
 /** WORK EXPERIENCE **/
@@ -36,6 +35,13 @@
     display: flex;
     justify-content: space-between;
     width: 600px;
+}
+
+@media (max-width: 750px) {
+    .fulltime {display: none;}
+    .date {display: none;}
+    .time {display: none;}
+
 }
 .work h3 {
     color: #FFF;
@@ -101,10 +107,7 @@
     font-style: normal;
     font-weight: lighter;
     letter-spacing: 1px;
-}
-.hr {
-    width: 300px;
-    display: flex;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -124,7 +127,11 @@
     justify-content: space-between;
     width: 600px;
 }
-.degree h3 {
+@media (max-width: 705px) {
+    .degree {width: 350px;}
+    .abouut {overflow: hidden;}
+}
+.degree p {
     color: #FFF;
     font-family: Poppins;
     font-size: 20px;

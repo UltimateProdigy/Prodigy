@@ -44,7 +44,7 @@
     text-align: center;
     border-radius: 10px;
     font-family: 'DM Sans', sans-serif;
-    display: none;
+    display: block;
 }
 .toggler li {
     list-style: none;
@@ -63,4 +63,14 @@
 }
 .toggleButton {
     display: none;
+}
+
+/** Media Query**/
+
+@media (max-width: 993px) {
+    .second {display: none;}
+    .toggleButton {display: block;}
+}
+@media (min-width: 993px) {
+    .togglerDiv {display: none;}
 }

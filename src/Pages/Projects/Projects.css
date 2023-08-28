@@ -8,6 +8,12 @@
     grid-template-columns: repeat(3, 1fr);
     row-gap: 40px;
 }
+@media (max-width: 1210px) {
+    .all-projects {grid-template-columns: repeat(2, 1fr); row-gap: 70px;}
+}
+@media (max-width: 875px) {
+    .all-projects {grid-template-columns: repeat(1, 1fr); row-gap: 70px;}
+}
 .project h1 {
     color: var(--solid-heading, #d3d3da);
     font-family: Poppins;
