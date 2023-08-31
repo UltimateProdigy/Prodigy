@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 .aboutsection {
-    margin: 70px 80px;
+    margin: 70px 20px;
 }
 .about_intro {
     font-family: 'Poppins', sans-serif;
@@ -166,3 +166,4 @@
     padding-right: 30px;
     font-family: 'Poppins', sans-serif;
 }
+

@@ -51,3 +51,6 @@
     .intro {width: 85vw; line-height: 60px; font-size: 50px;}
     .profileDp {display: none;}
 }
+@media (max-width: 555.56px) {
+    .home {margin-left: 30px;}
+}

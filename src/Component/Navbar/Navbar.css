@@ -74,3 +74,6 @@
 @media (min-width: 993px) {
     .togglerDiv {display: none;}
 }
+@media (min-width: 500px) {
+    .navbar { margin: 30px 20px;}
+}
